@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "200686259200",
+    "firebase_url": "https://buletinnaker.firebaseio.com",
+    "project_id": "buletinnaker",
+    "storage_bucket": "buletinnaker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200686259200:android:b8d0ebc80385bee6",
+        "android_client_info": {
+          "package_name": "com.example.buletinnaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200686259200-bo5hcd8pds8cm2om4i2ipal3502c0nf8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buletinnaker",
+            "certificate_hash": "1629aa23c7e81ab983dfe7680bdb258afad3152d"
+          }
+        },
+        {
+          "client_id": "200686259200-pvf0q7mr1lcodpj8r7epc9q22917aktf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buletinnaker",
+            "certificate_hash": "5130f767ccc1bcdfcf12207edb758800534945a6"
+          }
+        },
+        {
+          "client_id": "200686259200-r4o7nr1ot7e9oiun0gqe0ps26ahlffk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu8nBL6qnxDXccoUlTFE6McugURq_sIo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200686259200-r4o7nr1ot7e9oiun0gqe0ps26ahlffk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
