@@ -9,8 +9,9 @@
     android:padding="10dp"
     android:background="@color/backgroundcolor"
     android:gravity="center">
+
     <TextView
-        android:layout_weight="0.5"
+        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:gravity="center"
@@ -18,6 +19,123 @@
         android:textSize="27sp"
         android:textStyle="bold"/>
 
+    <LinearLayout
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <android.support.v7.widget.CardView
+            android:onClick="pasarkerja"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circlebackgroundpurple"
+                    android:src="@drawable/ic_chrome_reader_mode_black_24dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/image1"
+                    android:textStyle="bold"
+                    android:text="Pasar Kerja"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <android.support.v7.widget.CardView
+            android:onClick="menu1"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circlebackgroundpurple"
+                    android:src="@drawable/ic_chrome_reader_mode_black_24dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/image2"
+                    android:textStyle="bold"
+                    android:text="Tenaga Kerja Asing"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <android.support.v7.widget.CardView
+            android:onClick="menu1"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circlebackgroundpurple"
+                    android:src="@drawable/ic_chrome_reader_mode_black_24dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/image3"
+                    android:textStyle="bold"
+                    android:text="Penempatan dan Perlindungan Pekerja Migran Indonesia"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
     <LinearLayout
         android:clipToPadding="false"
         android:orientation="horizontal"
@@ -30,155 +148,71 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
             >
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="left">
+                android:layout_height="wrap_content"
+                android:padding="10dp">
                 <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:id="@+id/image4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:background="@drawable/circlebackgroundpurple"
                     android:src="@drawable/ic_chrome_reader_mode_black_24dp"
-                    android:padding="10dp"
-                    android:layout_margin="20dp"/>
+                    android:padding="5dp"
+                    android:layout_marginRight="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="35dp"
-                    android:textStyle="bold"
-                    android:text="Pasar Kerja"
-                    />
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-    </LinearLayout>
-    <LinearLayout
-        android:clipToPadding="false"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp">
-        <android.support.v7.widget.CardView
-            android:onClick="menu1"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
-            >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="left">
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:background="@drawable/circlebackgroundpurple"
-                    android:src="@drawable/ic_chrome_reader_mode_black_24dp"
-                    android:padding="10dp"
-                    android:layout_margin="20dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_marginTop="35dp"
-                    android:text="Tenaga Kerja Asing"
-                    />
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-    </LinearLayout>
-    <LinearLayout
-        android:clipToPadding="false"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp">
-        <android.support.v7.widget.CardView
-            android:onClick="menu1"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
-            >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center">
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:background="@drawable/circlebackgroundpurple"
-                    android:src="@drawable/ic_chrome_reader_mode_black_24dp"
-                    android:padding="10dp"
-                    android:layout_margin="20dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:text="Penempatan dan Perlindungan Pekerja Migran Indonesia"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightgray"
-                    android:layout_margin="10dp"/>
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-    </LinearLayout>
-    <LinearLayout
-        android:clipToPadding="false"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp">
-        <android.support.v7.widget.CardView
-            android:onClick="menu1"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
-            >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center">
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:background="@drawable/circlebackgroundpurple"
-                    android:src="@drawable/ic_chrome_reader_mode_black_24dp"
-                    android:padding="10dp"
-                    android:layout_margin="20dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/image4"
                     android:textStyle="bold"
                     android:text="Penempatan Tenaga Kerja dalam Negeri"
                     />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightgray"
-                    android:layout_margin="10dp"/>
-            </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <android.support.v7.widget.CardView
+            android:onClick="menu1"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circlebackgroundpurple"
+                    android:src="@drawable/ic_chrome_reader_mode_black_24dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/image5"
+                    android:textStyle="bold"
+                    android:text="Pengembangan dan Perluasan Kesempatan Kerja"
+                    />
+            </RelativeLayout>
         </android.support.v7.widget.CardView>
 
     </LinearLayout>
@@ -189,41 +223,10 @@
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="0dp">
-        <android.support.v7.widget.CardView
-            android:onClick="menu1"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
-            >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center">
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:background="@drawable/circlebackgroundpurple"
-                    android:src="@drawable/ic_chrome_reader_mode_black_24dp"
-                    android:padding="10dp"
-                    android:layout_margin="20dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:text="Pengembangan dan Perluasan Kesempatan Kerja"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/lightgray"
-                    android:layout_margin="10dp"/>
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"/>
     </LinearLayout>
 
 

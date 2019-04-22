@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuDua"></activity>
+        <activity android:name=".Book"></activity>
+        <activity android:name=".SubLatpenPasarKerja" />
+        <activity android:name=".MenuDua" />
         <activity android:name=".MenuSatu" />
         <activity android:name=".user" />
         <activity android:name=".MainActivity" />
