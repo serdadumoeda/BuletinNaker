@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:text="Pasar Kerja"
                 android:textAlignment="center"
-                android:textSize="27dp"
+                android:textSize="27sp"
                 android:textStyle="bold"
                 android:layout_weight="1"/>
 
@@ -127,18 +127,18 @@
                         android:padding="20dp">
 
                         <ImageView
-                            android:id="@+id/mr"
+                            android:id="@+id/mr1"
                             android:layout_width="120dp"
                             android:layout_height="120dp"
                             android:padding="5dp"
                             android:src="@drawable/mr" />
 
                         <TextView
-                            android:id="@+id/textps1"
+                            android:id="@+id/textps2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr1"
                             android:paddingLeft="20dp"
                             android:text="List1"
                             android:textSize="20sp"
@@ -147,45 +147,45 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Lihat"
-                            android:layout_toRightOf="@+id/textps1"/>
+                            android:layout_toRightOf="@+id/textps2"/>
 
                         <View
-                            android:id="@+id/garis"
+                            android:id="@+id/garis1"
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:background="@color/lightgray"
-                            android:layout_below="@+id/textps1"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_below="@+id/textps2"
+                            android:layout_toRightOf="@+id/mr1"
                             android:layout_marginLeft="20dp"/>
 
                         <TextView
-                            android:id="@+id/deskripsi"
+                            android:id="@+id/deskripsi2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr1"
                             android:paddingLeft="20dp"
                             android:paddingTop="10dp"
                             android:text="deskripsi aaasssdad a sd a s d d da "
-                            android:layout_below="@+id/garis"/>
+                            android:layout_below="@+id/garis1"/>
 
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Lihat"
-                            android:layout_below="@+id/deskripsi"
+                            android:layout_below="@+id/deskripsi2"
                             android:layout_alignParentRight="true"/>
 
                         <TextView
-                            android:id="@+id/tgl"
+                            android:id="@+id/tgl2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr1"
                             android:paddingLeft="20dp"
                             android:paddingTop="25dp"
                             android:text="19 April 2019"
                             android:textStyle="italic"
                             android:textSize="9dp"
-                            android:layout_below="@+id/deskripsi"/>
+                            android:layout_below="@+id/deskripsi2"/>
 
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
@@ -211,18 +211,18 @@
                         android:padding="20dp">
 
                         <ImageView
-                            android:id="@+id/mr"
+                            android:id="@+id/mr2"
                             android:layout_width="120dp"
                             android:layout_height="120dp"
                             android:padding="5dp"
                             android:src="@drawable/mr" />
 
                         <TextView
-                            android:id="@+id/textps1"
+                            android:id="@+id/textps3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr2"
                             android:paddingLeft="20dp"
                             android:text="List1"
                             android:textSize="20sp"
@@ -231,45 +231,45 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Lihat"
-                            android:layout_toRightOf="@+id/textps1"/>
+                            android:layout_toRightOf="@+id/textps3"/>
 
                         <View
-                            android:id="@+id/garis"
+                            android:id="@+id/garis3"
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:background="@color/lightgray"
-                            android:layout_below="@+id/textps1"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_below="@+id/textps3"
+                            android:layout_toRightOf="@+id/mr2"
                             android:layout_marginLeft="20dp"/>
 
                         <TextView
-                            android:id="@+id/deskripsi"
+                            android:id="@+id/deskripsi3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr2"
                             android:paddingLeft="20dp"
                             android:paddingTop="10dp"
                             android:text="deskripsi aaasssdad a sd a s d d da "
-                            android:layout_below="@+id/garis"/>
+                            android:layout_below="@+id/garis3"/>
 
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Lihat"
-                            android:layout_below="@+id/deskripsi"
+                            android:layout_below="@+id/deskripsi3"
                             android:layout_alignParentRight="true"/>
 
                         <TextView
-                            android:id="@+id/tgl"
+                            android:id="@+id/tgl3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr2"
                             android:paddingLeft="20dp"
                             android:paddingTop="25dp"
                             android:text="19 April 2019"
                             android:textStyle="italic"
                             android:textSize="9dp"
-                            android:layout_below="@+id/deskripsi"/>
+                            android:layout_below="@+id/deskripsi3"/>
 
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
@@ -295,18 +295,18 @@
                         android:padding="20dp">
 
                         <ImageView
-                            android:id="@+id/mr"
+                            android:id="@+id/mr3"
                             android:layout_width="120dp"
                             android:layout_height="120dp"
                             android:padding="5dp"
                             android:src="@drawable/mr" />
 
                         <TextView
-                            android:id="@+id/textps1"
+                            android:id="@+id/textps4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr3"
                             android:paddingLeft="20dp"
                             android:text="List1"
                             android:textSize="20sp"
@@ -315,45 +315,45 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Lihat"
-                            android:layout_toRightOf="@+id/textps1"/>
+                            android:layout_toRightOf="@+id/textps4"/>
 
                         <View
-                            android:id="@+id/garis"
+                            android:id="@+id/garis4"
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:background="@color/lightgray"
-                            android:layout_below="@+id/textps1"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_below="@+id/textps4"
+                            android:layout_toRightOf="@+id/mr3"
                             android:layout_marginLeft="20dp"/>
 
                         <TextView
-                            android:id="@+id/deskripsi"
+                            android:id="@+id/deskripsi4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr3"
                             android:paddingLeft="20dp"
                             android:paddingTop="10dp"
                             android:text="deskripsi aaasssdad a sd a s d d da "
-                            android:layout_below="@+id/garis"/>
+                            android:layout_below="@+id/garis4"/>
 
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Lihat"
-                            android:layout_below="@+id/deskripsi"
+                            android:layout_below="@+id/deskripsi4"
                             android:layout_alignParentRight="true"/>
 
                         <TextView
-                            android:id="@+id/tgl"
+                            android:id="@+id/tgl4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr3"
                             android:paddingLeft="20dp"
                             android:paddingTop="25dp"
                             android:text="19 April 2019"
                             android:textStyle="italic"
                             android:textSize="9dp"
-                            android:layout_below="@+id/deskripsi"/>
+                            android:layout_below="@+id/deskripsi4"/>
 
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
@@ -379,18 +379,18 @@
                         android:padding="20dp">
 
                         <ImageView
-                            android:id="@+id/mr"
+                            android:id="@+id/mr4"
                             android:layout_width="120dp"
                             android:layout_height="120dp"
                             android:padding="5dp"
                             android:src="@drawable/mr" />
 
                         <TextView
-                            android:id="@+id/textps1"
+                            android:id="@+id/textps5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr4"
                             android:paddingLeft="20dp"
                             android:text="List1"
                             android:textSize="20sp"
@@ -399,45 +399,45 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Lihat"
-                            android:layout_toRightOf="@+id/textps1"/>
+                            android:layout_toRightOf="@+id/textps5"/>
 
                         <View
-                            android:id="@+id/garis"
+                            android:id="@+id/garis5"
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:background="@color/lightgray"
-                            android:layout_below="@+id/textps1"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_below="@+id/textps5"
+                            android:layout_toRightOf="@+id/mr4"
                             android:layout_marginLeft="20dp"/>
 
                         <TextView
-                            android:id="@+id/deskripsi"
+                            android:id="@+id/deskripsi5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr4"
                             android:paddingLeft="20dp"
                             android:paddingTop="10dp"
                             android:text="deskripsi aaasssdad a sd a s d d da "
-                            android:layout_below="@+id/garis"/>
+                            android:layout_below="@+id/garis5"/>
 
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Lihat"
-                            android:layout_below="@+id/deskripsi"
+                            android:layout_below="@+id/deskripsi5"
                             android:layout_alignParentRight="true"/>
 
                         <TextView
-                            android:id="@+id/tgl"
+                            android:id="@+id/tgl5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/mr"
+                            android:layout_toRightOf="@+id/mr4"
                             android:paddingLeft="20dp"
                             android:paddingTop="25dp"
                             android:text="19 April 2019"
                             android:textStyle="italic"
                             android:textSize="9dp"
-                            android:layout_below="@+id/deskripsi"/>
+                            android:layout_below="@+id/deskripsi5"/>
 
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
@@ -463,18 +463,18 @@
                     android:padding="20dp">
 
                     <ImageView
-                        android:id="@+id/mr"
+                        android:id="@+id/mr5"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:padding="5dp"
                         android:src="@drawable/mr" />
 
                     <TextView
-                        android:id="@+id/textps1"
+                        android:id="@+id/textps6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:layout_toRightOf="@+id/mr"
+                        android:layout_toRightOf="@+id/mr5"
                         android:paddingLeft="20dp"
                         android:text="List1"
                         android:textSize="20sp"
@@ -483,45 +483,45 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Lihat"
-                        android:layout_toRightOf="@+id/textps1"/>
+                        android:layout_toRightOf="@+id/textps6"/>
 
                     <View
-                        android:id="@+id/garis"
+                        android:id="@+id/garis6"
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/lightgray"
-                        android:layout_below="@+id/textps1"
-                        android:layout_toRightOf="@+id/mr"
+                        android:layout_below="@+id/textps6"
+                        android:layout_toRightOf="@+id/mr5"
                         android:layout_marginLeft="20dp"/>
 
                     <TextView
-                        android:id="@+id/deskripsi"
+                        android:id="@+id/deskripsi6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_toRightOf="@+id/mr"
+                        android:layout_toRightOf="@+id/mr5"
                         android:paddingLeft="20dp"
                         android:paddingTop="10dp"
                         android:text="deskripsi aaasssdad a sd a s d d da "
-                        android:layout_below="@+id/garis"/>
+                        android:layout_below="@+id/garis6"/>
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Lihat"
-                        android:layout_below="@+id/deskripsi"
+                        android:layout_below="@+id/deskripsi6"
                         android:layout_alignParentRight="true"/>
 
                     <TextView
-                        android:id="@+id/tgl"
+                        android:id="@+id/tgl6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_toRightOf="@+id/mr"
+                        android:layout_toRightOf="@+id/mr5"
                         android:paddingLeft="20dp"
                         android:paddingTop="25dp"
                         android:text="19 April 2019"
                         android:textStyle="italic"
                         android:textSize="9dp"
-                        android:layout_below="@+id/deskripsi"/>
+                        android:layout_below="@+id/deskripsi6"/>
 
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
@@ -529,19 +529,17 @@
 
         </LinearLayout>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         </LinearLayout>
     </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:outlineSpotShadowColor="@color/cardview_shadow_end_color"
+        android:src="@drawable/back"
+        />
 </RelativeLayout>
